@@ -58,18 +58,8 @@ public class Student {
     private String matricNo;
  private double score;
 
-    public Student(String name, String matricNo, double score) {       this.name = name;
-    this.matricNo = matricNo;
-      this.score = score;
-    }
 
-    public void displayInfo() {       System.out.println("Name: " + name);
-     System.out.println("Matric No: " + matricNo);
-       System.out.println("Score: " + score);
-    }
-}
-// Usage:
-// Student s = new Student("Alice", "A1234", 88.5);
-// s.displayInfo();
+
+
 
 
